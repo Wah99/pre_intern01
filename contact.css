@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    position: absolute;
+    background-color: indigo;
+    width: 100%;
+    height:50%;
+}
+
+.fontstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.menubar {
+    position: absolute;
+    background-color:white;
+    height: 5%;
+    width: 100%;
+    top: 200px;
+    left: 100px;
+}
+a{
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+}
+.div1 {
+    float:left;
+    width:33.33%;
+    padding:20px;
+    
+ }
+ img {vertical-align: middle;}
+ .mainbody {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+.leftside {
+    width: 50%;
+    
+}
+.dotted {
+    border-top: 5px dotted black;
+}
+div {
+    display: block;
+}
+.rightside {
+    width: 50%;
+    float: left;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    background-color: blue;
+    color: yellow;
+  }
+  

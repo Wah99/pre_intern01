@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.div1 {
+   float:left;
+   width:33.33%;
+   padding:20px;
+   
+}
+
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+.header {
+    position: absolute;
+    background-color: indigo;
+    width: 100%;
+    height:30%;
+}
+
+.fontstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.menubar {
+    position: absolute;
+    background-color:white;
+    height: 10%;
+    width: 100%;
+    top: 200px;
+    left: 100px;
+}
+a{
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    padding-top: 250px;
+    max-width: 1000px;
+    
+    margin-top: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.mainbody {
+    padding: 30px;
+}
+.leftside {
+    background-color: blue;
+    width: 50%;
+    
+}
+.rightside {
+    width: 50%;
+    float: left;
+}
+th,td {
+  padding: 5px;
+  text-align: left;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  background-color: blue;
+  color: yellow;
+}
